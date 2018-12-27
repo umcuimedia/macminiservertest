@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		690DB4E021D50D5200A510F1 /* onservertestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C54F21D4ED2B00BC84F8 /* onservertestTests.swift */; };
-		690DB4E121D50D5E00A510F1 /* onservertestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C54F21D4ED2B00BC84F8 /* onservertestTests.swift */; };
 		690DB4E221D50DBC00A510F1 /* onservertestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C55A21D4ED2B00BC84F8 /* onservertestUITests.swift */; };
 		690DB4E321D50DBD00A510F1 /* onservertestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C55A21D4ED2B00BC84F8 /* onservertestUITests.swift */; };
 		690DB4E421D50DCF00A510F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C53A21D4ED1C00BC84F8 /* AppDelegate.swift */; };
@@ -22,12 +20,12 @@
 		690DB4EC21D50DEC00A510F1 /* onservertestUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6930C55621D4ED2B00BC84F8 /* onservertestUITests.xctest */; };
 		690DB4ED21D50DED00A510F1 /* onservertestUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6930C55621D4ED2B00BC84F8 /* onservertestUITests.xctest */; };
 		690DB4EE21D50DEE00A510F1 /* onservertestUITests.xctest in Resources */ = {isa = PBXBuildFile; fileRef = 6930C55621D4ED2B00BC84F8 /* onservertestUITests.xctest */; };
+		690DB4EF21D50FFB00A510F1 /* onservertestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C54F21D4ED2B00BC84F8 /* onservertestTests.swift */; };
 		6930C53B21D4ED1C00BC84F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C53A21D4ED1C00BC84F8 /* AppDelegate.swift */; };
 		6930C53D21D4ED1C00BC84F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C53C21D4ED1C00BC84F8 /* ViewController.swift */; };
 		6930C54021D4ED1D00BC84F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6930C53E21D4ED1D00BC84F8 /* Main.storyboard */; };
 		6930C54221D4ED2A00BC84F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6930C54121D4ED2A00BC84F8 /* Assets.xcassets */; };
 		6930C54521D4ED2A00BC84F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6930C54321D4ED2A00BC84F8 /* LaunchScreen.storyboard */; };
-		6930C55021D4ED2B00BC84F8 /* onservertestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C54F21D4ED2B00BC84F8 /* onservertestTests.swift */; };
 		6930C55B21D4ED2B00BC84F8 /* onservertestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6930C55A21D4ED2B00BC84F8 /* onservertestUITests.swift */; };
 /* End PBXBuildFile section */
 
@@ -280,8 +278,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				690DB4E021D50D5200A510F1 /* onservertestTests.swift in Sources */,
 				690DB4E221D50DBC00A510F1 /* onservertestUITests.swift in Sources */,
+				690DB4EF21D50FFB00A510F1 /* onservertestTests.swift in Sources */,
 				6930C53D21D4ED1C00BC84F8 /* ViewController.swift in Sources */,
 				6930C53B21D4ED1C00BC84F8 /* AppDelegate.swift in Sources */,
 			);
@@ -292,7 +290,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				690DB4E421D50DCF00A510F1 /* AppDelegate.swift in Sources */,
-				6930C55021D4ED2B00BC84F8 /* onservertestTests.swift in Sources */,
 				690DB4E321D50DBD00A510F1 /* onservertestUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -303,7 +300,6 @@
 			files = (
 				690DB4E521D50DD000A510F1 /* AppDelegate.swift in Sources */,
 				6930C55B21D4ED2B00BC84F8 /* onservertestUITests.swift in Sources */,
-				690DB4E121D50D5E00A510F1 /* onservertestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
